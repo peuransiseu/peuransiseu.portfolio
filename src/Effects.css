@@ -1,0 +1,82 @@
+
+.main-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Ensure no child element overflows */
+}
+
+.responsive-container {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+/* Prevent scrollbars */
+border: 1px solid white;
+}
+
+/* .logo-scale{
+  transform: scale(1.2);
+} */
+
+.reduce-scale{
+  transform: scale(0.8); 
+  transform-origin: center;
+}
+
+.intro-container{
+  position: absolute;
+  bottom: 250px;
+  left: 100px
+}
+
+.org-adjust{
+  position: relative;
+  bottom: 100px;
+  width: 1920px;
+}
+
+.full-page-image {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+
+  .hover-shadow {
+    transition: filter 0.3s ease;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+  }
+  
+  .hover-shadow:hover {
+    filter: drop-shadow(1px 3px 15px #61dafbaa);
+  }
+
+
+
+.logo-hover:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+.about-img{
+  width: 700px;
+  height: 600px;
+  margin-left: -100px;
+  object-fit: cover;
+}
+
+
+.maintenance-img{
+  position: relative;
+  width: 700px;
+  height: 700px;
+  right: 50px;
+}
