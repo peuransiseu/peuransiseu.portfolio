@@ -38,8 +38,11 @@ const OrgsExp = () => {
                 </a>
 
                 <div className="card-body">
-                  <h5 className="card-title">UST Thomasian Gaming Society</h5>
-                  <ul className="card-text fs-5">
+                  <strong className="card-title d-flex fs-4 justify-content-center">
+                    UST Thomasian Gaming Society
+                  </strong>
+                  <p></p>
+                  <ul className="card-text fs-5 mt-3 ">
                     <li>
                       Executive Vice President and Chief Relations Director
                     </li>
@@ -69,8 +72,10 @@ const OrgsExp = () => {
                 </a>
 
                 <div className="card-body">
-                  <h5 className="card-title">UST ICS Student Council</h5>
-                  <ul className="card-text fs-5">
+                  <strong className="card-title fs-4 d-flex justify-content-center">
+                    UST ICS Student Council
+                  </strong>
+                  <ul className="card-text fs-5 mt-3">
                     <li>Director for Projects Management </li>
                     <p>(A.Y 2024-2025)</p>
                     <li>Executive Associate to the Internal Vice President</li>
@@ -97,8 +102,10 @@ const OrgsExp = () => {
                 </a>
 
                 <div className="card-body">
-                  <h5 className="card-title">AWS Learning Club - España</h5>
-                  <ul className="fs-5">
+                  <strong className="card-title  d-flex fs-4 justify-content-center">
+                    AWS Learning Club - España
+                  </strong>
+                  <ul className="fs-5 mt-3">
                     <li>Chief Operations Officer</li>
                     <p>(2024 - Present)</p>
                   </ul>
@@ -121,10 +128,10 @@ const OrgsExp = () => {
                 </a>
 
                 <div className="card-body">
-                  <h5 className="card-title">
+                  <strong className="card-title  d-flex fs-4 justify-content-center">
                     UST Cisco Networking Academy Gateway - CICS
-                  </h5>
-                  <ul className="fs-5">
+                  </strong>
+                  <ul className="fs-5 mt-3">
                     <li>External Relations Staff</li>
                     <p>(A.Y 2023-2024)</p>
                   </ul>
@@ -147,8 +154,10 @@ const OrgsExp = () => {
                 </a>
 
                 <div className="card-body">
-                  <h5 className="card-title">PCU SHS STEM Society</h5>
-                  <ul className="fs-5">
+                  <strong className="card-title  d-flex fs-4 justify-content-center">
+                    PCU SHS STEM Society
+                  </strong>
+                  <ul className="fs-5 mt-3">
                     <li>Executive Treasurer </li>
                     <p>(A.Y 2019 - 2020)</p>
                     <li>CRTV Media - Videographer</li>
@@ -173,10 +182,10 @@ const OrgsExp = () => {
                 </a>
 
                 <div className="card-body">
-                  <h5 className="card-title">
+                  <strong className="card-title d-flex fs-4 justify-content-center">
                     Oxford Louise Academy, Supreme Student Council
-                  </h5>
-                  <ul className="fs-5">
+                  </strong>
+                  <ul className="fs-5 mt-3">
                     <li>President</li>
                     <p>(A.Y 2017 - 2018)</p>
                   </ul>
