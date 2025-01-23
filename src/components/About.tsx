@@ -9,16 +9,16 @@ const About = () => {
         exit={{ opacity: 0, x: 100 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="container-md d-flex align-items-center justify-content-center border rounded pe-5 my-5">
-          <div className="" style={{ objectFit: "cover" }}>
+        <div className="container-md d-flex pe-5 my-5 my-0">
+          <div className="col-lg-5">
             <img
               src="src\assets\my-photo2-no-bg.png"
               id="myphoto2"
               alt="mypicture"
-              className="about-img"
+              className="about-img img-fluid"
             />
           </div>
-          <div className="about-text">
+          <div className="col-lg-5 about-txt">
             <h1 className="me-5 mb-4">About Me</h1>
             <p className="me-5 fs-5 text-justify">
               I am an innovative Computer Science student specializing in web,

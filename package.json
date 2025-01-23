@@ -2,7 +2,7 @@
   "name": "my-portfolio-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://peuransiseu.github.io/my-portfolio-app/",
+  "homepage": "https://peuransiseu.github.io/my-portfolio-app",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

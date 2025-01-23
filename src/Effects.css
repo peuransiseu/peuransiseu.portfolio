@@ -67,10 +67,17 @@ border: 1px solid white;
 
 
 .about-img{
-  width: 700px;
-  height: 600px;
-  margin-left: -100px;
-  object-fit: cover;
+  position: absolute;
+  left: 120px;
+  bottom: 0;
+  max-height: 60%;
+  transform: scale(1.7);
+}
+
+.about-txt{
+  position: absolute;
+  bottom: 250px;
+  right: 100px
 }
 
 
