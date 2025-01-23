@@ -2,10 +2,6 @@ import React from "react";
 import "../Effects.css";
 import { motion } from "framer-motion";
 const Intro: React.FC = () => {
-  const nameStyle = {
-    size: "75px",
-  };
-
   return (
     <motion.div
       initial={{ opacity: 0, x: -100 }}

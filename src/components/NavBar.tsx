@@ -1,11 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const navStyle = {
-    margin: "2%",
-  };
-
   return (
     <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
       <div className="container d-flex justify-content-between align-items-center mt-3 mb-0">

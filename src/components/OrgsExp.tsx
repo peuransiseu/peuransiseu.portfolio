@@ -1,13 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const OrgsExp = () => {
-  const orgStyle = {
-    maxWidth: "80%",
-    height: "40%",
-    padding: "5%",
-  };
-
   return (
     <>
       <motion.div
