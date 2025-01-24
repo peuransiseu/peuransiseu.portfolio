@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <>
       <motion.div

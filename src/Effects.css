@@ -72,6 +72,12 @@ border: 1px solid white;
   bottom: 0;
   max-height: 60%;
   transform: scale(1.7);
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+  transition: filter 0.3s ease;
+}
+
+.about-img:hover {
+  filter: drop-shadow(1px 3px 15px #61dafbaa);
 }
 
 .about-txt{
