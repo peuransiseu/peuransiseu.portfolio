@@ -4,9 +4,7 @@ import NavBar from "./components/NavBar";
 import Intro from "./components/Intro";
 import OrgsExp from "./components/OrgsExp";
 import About from "./components/About";
-// import Projects from "./components/Projects";
 import MyCarousel from "./components/MyCarousel";
-// import Projects from "./components/Projects";
 
 const AnimatedRoutes: React.FC = () => {
   const location = useLocation(); // Detects current route
