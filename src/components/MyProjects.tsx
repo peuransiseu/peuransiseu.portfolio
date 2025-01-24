@@ -35,10 +35,12 @@ const MyCarousel = () => {
                   Computer Vision
                   <ul className="list p-3">
                     <li className="lead fs-5">
-                      Spearheaded a paper thesis "Papaya Meets ViTGAN: A Deep
-                      Approach to Classification of Papaya Diseases by
-                      Leveraging Vision Transformer to Generative Adversarial
-                      Networks"
+                      Spearheaded a paper thesis{" "}
+                      <strong>
+                        "Papaya Meets ViTGAN: A Deep Approach to Classification
+                        of Papaya Diseases by Leveraging Vision Transformer to
+                        Generative Adversarial Networks"
+                      </strong>
                     </li>
                     <li className="lead fs-5">
                       A agricultural computer vision approach for papaya disease
