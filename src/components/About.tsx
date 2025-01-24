@@ -13,7 +13,7 @@ const About = () => {
         <div className="container-md d-flex pe-5 my-5 my-0">
           <div className="col-lg-5">
             <img
-              src="src\assets\my-photo2-no-bg.png"
+              src={import.meta.env.BASE_URL + "src/assets/my-photo2-no-bg.png"}
               id="myphoto2"
               alt="mypicture"
               className="about-img img-fluid"

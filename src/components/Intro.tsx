@@ -44,7 +44,7 @@ const Intro = () => {
           </div>
         </div>
         <img
-          src="src\assets\mypicture.png"
+          src={import.meta.env.BASE_URL + "src/assets/mypicture.png"}
           className="hover-shadow full-page-image"
           alt="mypicture"
         />
