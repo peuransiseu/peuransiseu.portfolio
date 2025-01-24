@@ -19,7 +19,9 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://www.facebook.com/ThomasianGamingSociety">
                   <img
-                    src={import.meta.env.BASE_URL + "srcassets\tgs-logo-bg.jpg"}
+                    src={
+                      import.meta.env.BASE_URL + "src/assets/tgs-logo-bg.jpg"
+                    }
                     className="card-img-top logo-hover img-fluid"
                     alt="tgs-logo"
                     style={{
@@ -54,7 +56,7 @@ const OrgsExp = () => {
                 <a href="https://www.facebook.com/USTICSSC">
                   <img
                     src={
-                      import.meta.env.BASE_URL + "srcassetsicssc-logo-bg.jpg"
+                      import.meta.env.BASE_URL + "src/assets/icssc-logo-bg.jpg"
                     }
                     className="card-img-top logo-hover img-fluid"
                     alt="icssc-logo"
@@ -85,7 +87,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://facebook.com/people/AWS-Learning-Club-Espa%C3%B1a/61563942550637/">
                   <img
-                    src={import.meta.env.BASE_URL + "srcassetsawslc-logo.png"}
+                    src={import.meta.env.BASE_URL + "src/assets/awslc-logo.png"}
                     className="card-img-top logo-hover img-fluid"
                     alt="awslc-logo"
                     style={{
@@ -111,7 +113,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://facebook.com/cnagics">
                   <img
-                    src={import.meta.env.BASE_URL + "srcassetscnag-logo.jpg"}
+                    src={import.meta.env.BASE_URL + "src/assets/cnag-logo.jpg"}
                     className="card-img-top logo-hover img-fluid"
                     alt="cnag-logo"
                     style={{
@@ -138,7 +140,8 @@ const OrgsExp = () => {
                 <a href="https://www.facebook.com/pcushsstemsoc">
                   <img
                     src={
-                      import.meta.env.BASE_URL + "srcassetspcushsstem-logo.jpg"
+                      import.meta.env.BASE_URL +
+                      "src/assets/pcushsstem-logo.jpg"
                     }
                     className="card-img-top logo-hover img-fluid"
                     alt="pcushsstem-logo"
@@ -167,7 +170,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://www.facebook.com/olassc">
                   <img
-                    src={import.meta.env.BASE_URL + "srcassetsola-logo.jpg"}
+                    src={import.meta.env.BASE_URL + "src/assets/ola-logo.jpg"}
                     className="card-img-top logo-hover img-fluid"
                     alt="ola-logo"
                     style={{
