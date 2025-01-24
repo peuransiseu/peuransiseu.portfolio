@@ -1,4 +1,10 @@
 import { motion } from "framer-motion";
+import tgs from "/src/assets/tgs-logo-bg.jpg";
+import icssc from "/src/assets/icssc-logo-bg.jpg";
+import awslc from "/src/assets/awslc-logo.png";
+import cnag from "/src/assets/cnag-logo.jpg";
+import pcustem from "/src/assets/pcushsstem-logo.jpg";
+import olassc from "/src/assets/ola-logo.jpg";
 
 const OrgsExp = () => {
   return (
@@ -19,9 +25,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://www.facebook.com/ThomasianGamingSociety">
                   <img
-                    src={
-                      import.meta.env.BASE_URL + "src/assets/tgs-logo-bg.jpg"
-                    }
+                    src={tgs}
                     className="card-img-top logo-hover img-fluid"
                     alt="tgs-logo"
                     style={{
@@ -55,9 +59,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://www.facebook.com/USTICSSC">
                   <img
-                    src={
-                      import.meta.env.BASE_URL + "src/assets/icssc-logo-bg.jpg"
-                    }
+                    src={icssc}
                     className="card-img-top logo-hover img-fluid"
                     alt="icssc-logo"
                     style={{
@@ -87,7 +89,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://facebook.com/people/AWS-Learning-Club-Espa%C3%B1a/61563942550637/">
                   <img
-                    src={import.meta.env.BASE_URL + "src/assets/awslc-logo.png"}
+                    src={awslc}
                     className="card-img-top logo-hover img-fluid"
                     alt="awslc-logo"
                     style={{
@@ -113,7 +115,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://facebook.com/cnagics">
                   <img
-                    src={import.meta.env.BASE_URL + "src/assets/cnag-logo.jpg"}
+                    src={cnag}
                     className="card-img-top logo-hover img-fluid"
                     alt="cnag-logo"
                     style={{
@@ -139,10 +141,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://www.facebook.com/pcushsstemsoc">
                   <img
-                    src={
-                      import.meta.env.BASE_URL +
-                      "src/assets/pcushsstem-logo.jpg"
-                    }
+                    src={pcustem}
                     className="card-img-top logo-hover img-fluid"
                     alt="pcushsstem-logo"
                     style={{
@@ -170,7 +169,7 @@ const OrgsExp = () => {
               <div className="card h-100">
                 <a href="https://www.facebook.com/olassc">
                   <img
-                    src={import.meta.env.BASE_URL + "src/assets/ola-logo.jpg"}
+                    src={olassc}
                     className="card-img-top logo-hover img-fluid"
                     alt="ola-logo"
                     style={{
