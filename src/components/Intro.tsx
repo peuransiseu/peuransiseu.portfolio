@@ -1,5 +1,9 @@
 import "../Effects.css";
 import { motion } from "framer-motion";
+import myimage from "/src/assets/mypicture.png";
+import fblogo from "/src/assets/facebook-icon.svg";
+import iglogo from "/src/assets/instagram-icon.svg";
+import linkedin from "/src/assets/linkedin-icon.svg";
 
 const Intro = () => {
   return (
@@ -18,7 +22,7 @@ const Intro = () => {
           <div className="mt-3 me-3">
             <a href="https://www.facebook.com/Fundaldesu">
               <img
-                src="src\assets\facebook-icon.svg"
+                src={fblogo}
                 alt="fb-icon"
                 style={{ maxWidth: "30%" }}
                 className="logo-hover"
@@ -26,7 +30,7 @@ const Intro = () => {
             </a>
             <a href="https://www.instagram.com/hahafundal/">
               <img
-                src="src\assets\instagram-icon.svg"
+                src={iglogo}
                 alt="ig-icon"
                 style={{ maxWidth: "30%" }}
                 className="logo-hover"
@@ -35,7 +39,7 @@ const Intro = () => {
 
             <a href="https://www.linkedin.com/in/francisfundal/">
               <img
-                src="src\assets\linkedin-icon.svg"
+                src={linkedin}
                 alt="linkedin-icon"
                 style={{ maxWidth: "30%" }}
                 className="logo-hover"
@@ -44,7 +48,7 @@ const Intro = () => {
           </div>
         </div>
         <img
-          src={import.meta.env.BASE_URL + "src/assets/mypicture.png"}
+          src={myimage}
           className="hover-shadow full-page-image"
           alt="mypicture"
         />

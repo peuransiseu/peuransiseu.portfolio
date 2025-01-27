@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "../Effects.css";
+import myimage from "/src/assets/my-photo2-no-bg.png";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
         <div className="container-md d-flex pe-5 my-5 my-0">
           <div className="col-lg-5">
             <img
-              src={import.meta.env.BASE_URL + "src/assets/my-photo2-no-bg.png"}
+              src={myimage}
               id="myphoto2"
               alt="mypicture"
               className="about-img img-fluid"
