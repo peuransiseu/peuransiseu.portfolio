@@ -43,10 +43,10 @@ const MyCarousel = () => {
                       </strong>
                     </li>
                     <li className="lead fs-5">
-                      A agricultural computer vision approach for papaya disease
-                      classification using Vision Transformer-based Generative
-                      Adversarial Network and Vision Transformer (ViTDet-B)
-                      Classifier.
+                      An agricultural computer vision approach for papaya
+                      disease classification using Vision Transformer-based
+                      Generative Adversarial Network and Vision Transformer
+                      (ViTDet-B) Classifier.
                     </li>
                     <li className="lead fs-5">
                       Fine-tuned YOLO-based model for the augmented dataset for
