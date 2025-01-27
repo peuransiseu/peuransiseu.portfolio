@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import mylogo from "src/assets/FAF_nobg.png";
 
 const NavBar = () => {
   return (
@@ -21,7 +22,7 @@ const NavBar = () => {
             <div className="col-1 d-flex ps-5 justify-content-center">
               <a className="navbar-brand" href="#">
                 <img
-                  src="src\assets\FAF_nobg.png"
+                  src={mylogo}
                   alt="Bootstrap"
                   width="100"
                   height="100"
