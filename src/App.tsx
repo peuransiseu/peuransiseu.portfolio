@@ -1,27 +1,10 @@
 import { useRef } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 import NavBar from "./components/NavBar";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import MyProjects from "./components/MyProjects";
 import OrgsExp from "./components/OrgsExp";
 import Footer from "./components/Footer";
-
-const AnimatedRoutes: React.FC = () => {
-  const location = useLocation(); // Detects current route
-
-  return (
-    <AnimatePresence>
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Intro />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/orgsexp" element={<OrgsExp />} />
-        <Route path="/projects" element={<MyProjects />} />
-      </Routes>
-    </AnimatePresence>
-  );
-};
 
 const App: React.FC = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
