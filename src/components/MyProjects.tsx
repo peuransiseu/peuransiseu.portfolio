@@ -3,9 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { motion } from "framer-motion";
 
-const MyCarousel = () => {
+const MyProjects = () => {
   return (
     <>
+      <h1 className="section-header">Projects</h1>
       <motion.div
         initial={{ opacity: 0, x: 0 }}
         animate={{ opacity: 1, x: 0 }}
@@ -132,4 +133,4 @@ const MyCarousel = () => {
   );
 };
 
-export default MyCarousel;
+export default MyProjects;

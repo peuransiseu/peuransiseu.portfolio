@@ -9,6 +9,7 @@ import olassc from "/src/assets/ola-logo.jpg";
 const OrgsExp = () => {
   return (
     <>
+      <h1 className="section-header">Organizational Involvements</h1>
       <motion.div
         initial={{ opacity: 0, x: 0 }}
         animate={{ opacity: 1, x: 0 }}
