@@ -6,9 +6,12 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-content">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out through any of these platforms</p>
+        <div className="footer-content-text">
+          <h1 style={{fontFamily:  "ThunderBoldLC", fontSize: "80px", marginTop: "30px"}}>Contact Me!</h1>
+        </div>
+        
         <div className="social-links">
+          
           <a
             href="https://www.facebook.com/Fundaldesu"
             target="_blank"
@@ -43,10 +46,11 @@ const Footer = () => {
             />
           </a>
         </div>
-        <p className="copyright">
+       
+      </div>
+       <p className="copyright">
           © 2024 Francis Angelo Fundal. All rights reserved.
         </p>
-      </div>
     </div>
   );
 };
