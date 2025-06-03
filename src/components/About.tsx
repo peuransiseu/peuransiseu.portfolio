@@ -16,7 +16,7 @@ const About = () => {
         <h1 style={{ fontFamily: "ThunderBoldLC", marginBottom: "1.5rem" }}>
           About Me
         </h1>
-        <p className="fs-5"> 
+        <p className="fs-5" style={{ fontFamily: "Geist-ExtraLight" }}> 
           I am an innovative Computer Science graduate specialized in machine
           learning development. I am also an AWS Certified Solutions Architect -
           Associate with hands-on experience in developing solutions in Cloud
