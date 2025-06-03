@@ -38,6 +38,10 @@
   src: url('src/assets/fonts/Geist-Bold.woff2') format('woff2'), /* Modern Browsers */
 }
 @font-face {
+  font-family: "Geist-Medium";
+  src: url('src/assets/fonts/Geist-Medium.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
   font-family: "Geist-Light";
   src: url('src/assets/fonts/Geist-Light.woff2') format('woff2'), /* Modern Browsers */
 }
@@ -168,7 +172,7 @@
 
 /* Projects and Organizations headers */
 .section-header {
-  font-family: "ThunderBoldLC";
+  font-family: "Geist-Bold";
   font-size: 3rem;
   margin-bottom: 3rem;
   text-align: center;

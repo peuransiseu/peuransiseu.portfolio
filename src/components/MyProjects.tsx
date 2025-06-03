@@ -16,12 +16,12 @@ const MyProjects = () => {
         <div className="container-fluid position-relative">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3s g-4 text-justify justify-content-center mt-3 column-gap-4">
             <div className="col card" style={{ width: "35rem" }}>
-              <div className="card-header fs-3">Machine Learning</div>
+              <div className="card-header fs-3" style={{ fontFamily: "Geist-Medium" }}>Machine Learning</div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item fs-4">
+                <li className="list-group-item fs-4" style={{ fontFamily: "Geist" }}>
                   Natural Language Processing
-                  <ul className="list p-3">
-                    <li className="lead fs-5">
+                  <ul className="list p-3" style={{ fontFamily: "Geist-ExtraLight" }}>
+                    <li className="lead fs-5" >
                       Spearheaded a paper project for Tagalog Language Safety
                       Evaluation using DistilmBERT, mBERT-base, and XLM-RoBERTa.
                     </li>
@@ -32,9 +32,9 @@ const MyProjects = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="list-group-item fs-4">
+                <li className="list-group-item fs-4" style={{ fontFamily: "Geist" }}>
                   Computer Vision
-                  <ul className="list p-3">
+                  <ul className="list p-3" style={{ fontFamily: "Geist-ExtraLight" }}>
                     <li className="lead fs-5">
                       Spearheaded a paper thesis{" "}
                       <strong>
@@ -58,11 +58,11 @@ const MyProjects = () => {
               </ul>
             </div>
             <div className="col-3 card" style={{ width: "35rem" }}>
-              <div className="card-header fs-3">Cloud meets AI</div>
+              <div className="card-header fs-3"  style={{ fontFamily: "Geist-Medium" }}>Cloud meets AI</div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item fs-4">
+                <li className="list-group-item fs-4"  style={{ fontFamily: "Geist" }}>
                   AWS Generative AI Bootcamp
-                  <ul className="list p-3">
+                  <ul className="list p-3" style={{ fontFamily: "Geist-ExtraLight" }}>
                     <li className="lead fs-5">
                       Had a 10-day online workshop with AWS User Group Dehradun
                       (India) for Generative AI using AWS.
@@ -83,12 +83,12 @@ const MyProjects = () => {
               </ul>
             </div>
             <div className="col-3 card" style={{ width: "35rem" }}>
-              <div className="card-header fs-3">Software Development</div>
+              <div className="card-header fs-3"  style={{ fontFamily: "Geist-Medium" }}>Software Development</div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item fs-4">
+                <li className="list-group-item fs-4"  style={{ fontFamily: "Geist" }}>
                   Automated Fingerprint Attendance Processing System (Software
                   Engineering)
-                  <ul className="list p-3">
+                  <ul className="list p-3"  style={{ fontFamily: "Geist-ExtraLight" }}>
                     <li className="lead fs-5">
                       Worked as a Quality Assurance Officer, which handled test
                       cases and oversees the quality of the system
@@ -101,9 +101,9 @@ const MyProjects = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="list-group-item fs-4">
+                <li className="list-group-item fs-4" style={{ fontFamily: "Geist" }}>
                   Pamana Plates (Mobile Development)
-                  <ul className="list p-3">
+                  <ul className="list p-3" style={{ fontFamily: "Geist-ExtraLight" }}>
                     <li className="lead fs-5">
                       Worked as a Front-end Developer– designed and crafted the
                       User Interface for the Application
@@ -113,9 +113,9 @@ const MyProjects = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="list-group-item fs-4">
+                <li className="list-group-item fs-4" style={{ fontFamily: "Geist" }}>
                   Blossom Buddy (Web Development)
-                  <ul className="list p-3">
+                  <ul className="list p-3" style={{ fontFamily: "Geist-ExtraLight" }}>
                     <li className="lead fs-5">
                       Worked as a Front-end Developer
                     </li>
