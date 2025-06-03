@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-content">
         <div className="footer-content-text">
-          <h1 style={{fontFamily:  "ThunderBoldLC", fontSize: "80px", marginTop: "30px"}}>Contact Me!</h1>
+          <h1 style={{fontFamily:  "ThunderBoldLC", fontSize: "80px", marginTop: "30px", }}>Contact Me!</h1>
         </div>
         
         <div className="social-links">
