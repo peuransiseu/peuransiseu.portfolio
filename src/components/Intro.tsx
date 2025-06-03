@@ -15,8 +15,8 @@ const Intro = () => {
         <div className="name-stack">
           <h1
             style={{
-              fontSize: "90px",
-              fontFamily: "ThunderBoldLC",
+              fontSize: "70px",
+              fontFamily: "Geist",
               lineHeight: "0.9",
               marginBottom: "0",
             }}
@@ -25,8 +25,8 @@ const Intro = () => {
           </h1>
           <h1
             style={{
-              fontSize: "200px",
-              fontFamily: "ThunderBoldLC",
+              fontSize: "150px",
+              fontFamily: "Geist-Black",
               lineHeight: "0.8",
               marginTop: "0",
             }}
@@ -34,8 +34,8 @@ const Intro = () => {
             FUNDAL
           </h1>
         </div>
-        <h4 style={{ fontSize: "35px", fontFamily: "ThunderLCItalic" }}>
-          "Still trying to be better.. At Cloud"
+        <h4 style={{ fontSize: "35px", fontFamily: "Geist-ExtraLightItalic" }}>
+          "Still trying to be better.."
         </h4>
       </div>
       <img

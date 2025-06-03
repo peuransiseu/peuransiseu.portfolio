@@ -13,9 +13,10 @@ const About = () => {
     >
       <img src={myimage} alt="mypicture" className="about-img" />
       <div className="about-text-section">
-        <h1 style={{ fontFamily: "ThunderBoldLC", marginBottom: "1.5rem" }}>
+        <h1 style={{ fontFamily: "Geist", marginBottom: "1.5rem" }}>
           About Me
         </h1>
+
         <p className="fs-5" style={{ fontFamily: "Geist-ExtraLight" }}> 
           I am an innovative Computer Science graduate specialized in machine
           learning development. I am also an AWS Certified Solutions Architect -
@@ -29,7 +30,7 @@ const About = () => {
           advancements and contributing to impactful, user-centered innovations.
         </p>
         <div className="cert-container mt-4">
-          <h2 style={{ fontFamily: "ThunderBoldLC", marginBottom: "1.5rem" }}>
+          <h2 style={{ fontFamily: "Geist", marginBottom: "1.5rem" }}>
             Certifications and Badges
           </h2>
           <div className="cert-badges d-flex gap-4">

@@ -25,17 +25,49 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+  font-family: "Geist";
+  src: url('src/assets/fonts/Geist-Regular.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
+  font-family: "Geist-Black";
+  src: url('src/assets/fonts/Geist-Black.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
+  font-family: "Geist-Bold";
+  src: url('src/assets/fonts/Geist-Bold.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
+  font-family: "Geist-Light";
+  src: url('src/assets/fonts/Geist-Light.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
+  font-family: "Geist-LightItalic";
+  src: url('src/assets/fonts/Geist-LightItalic.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
+  font-family: "Geist-ExtraLight";
+  src: url('src/assets/fonts/Geist-ExtraLight.woff2') format('woff2'), /* Modern Browsers */
+}
+@font-face {
+  font-family: "Geist-ExtraLightItalic";
+  src: url('src/assets/fonts/Geist-ExtraLightItalic.woff2') format('woff2'), /* Modern Browsers */
+}
+
 
 .app-container {
+  background-color: #202124;
   width: 100%;
   overflow-x: hidden;
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 50px;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.95);
+  gap: 50px;
+  /* background-color: rgba(33, 37, 41, 0.95); */
+  background-color: #202124;
 }
 
 .nav-logo {
@@ -60,10 +92,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 450px;
+  gap: 300px;
   width: 90%;
   max-width: 1600px;
-  background-color: rgba(255, 255, 255, 0.02);
+  /* background-color: rgba(255, 255, 255, 0.02); */
+  background-color: #202124;
   margin-top: -100px;
   padding: 5rem;
   border-radius: 20px;
@@ -78,6 +111,14 @@
   max-width: 800px;
 }
 
+.name-stack:hover{
+    background-image: linear-gradient(to bottom right, #4796E3, #9177C7, #CA6673);
+    color: transparent;
+    background-clip: text;
+    transition: color 0.3s ease, background-image 0.3s ease;
+}
+
+
 .full-page-image {
   width: auto;
   height: 40vh;
@@ -89,7 +130,7 @@
 
 .full-page-image:hover,
 .about-img:hover {
-  filter: drop-shadow(5px 5px 15px #61dafbaa);
+  filter: drop-shadow(5px 5px 15px #9177C7);
 }
 
 /* About section styles */
@@ -102,7 +143,8 @@
   max-width: 1920px;
   padding: 3rem;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.02);
+  /* background-color: rgba(255, 255, 255, 0.02); */
+  background-color: #28292a;
   position: relative; /* Add this */
 }
 
@@ -121,7 +163,7 @@
 }
 
 .about-img:hover {
-  filter: drop-shadow(5px 5px 15px #61dafbaa);
+  filter: drop-shadow(5px 5px 15px #9177C7);
 }
 
 /* Projects and Organizations headers */
@@ -148,7 +190,8 @@
 /* Footer styles */
 .footer-container {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.02);
+  /* background-color: rgba(255, 255, 255, 0.02); */
+  background-color: #28292a;
   padding: 4rem 0;
   margin: 5rem 0 0 0;
   text-align: center;
